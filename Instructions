@@ -1,0 +1,29 @@
+source code: Sample_GL3_3D.cpp
+
+commands to be run for executing:
+
+- make
+-./sample3D
+
+How to play:
+
+Controls:
+	Left arrow: Move left
+	Right arow: Move Right
+	Up arrow: Move forward
+	Down arrow: Move backard
+	Space+direction arrow: Jump in that direction
+
+	T: Top view
+	O: Tower View
+	P: Adventurer View
+	F: Follow-Cam View
+	H: Helicopter-Cam View
+
+
+
+
+If player runs into obstacle, falls into a pit, or is unable to jump over moving floor tiles player goes back to starting point and loses a life. ( score -10)
+When player reaches the final tile(right hand upper corner), the player wins and window closes. (score +100)
+The obstacles change positions every 10 seconds.
+Score is displayed in the end
